@@ -437,7 +437,7 @@
     }],
     "source": {
         "type": "image",
-        "origin": "registry.devshift.net/che/vertx"
+        "origin": "docker.io/jerboaa/che-vertx:0.0.2"
     },
     "workspaceConfig": {
         "environments": {
@@ -456,7 +456,7 @@
                     }
                 },
                 "recipe": {
-                    "location": "registry.devshift.net/che/vertx",
+                    "location": "docker.io/jerboaa/che-vertx:0.0.2",
                     "type": "dockerimage"
                 }
             }
@@ -525,7 +525,7 @@
     ],
     "source": {
       "type": "image",
-      "origin": "registry.devshift.net/che/spring-boot"
+      "origin": "docker.io/jerboaa/che-spring-boot:0.0.2"
     },
     "workspaceConfig": {
       "name": "default",
@@ -533,7 +533,7 @@
       "environments": {
         "default": {
           "recipe": {
-            "location": "registry.devshift.net/che/spring-boot",
+            "location": "docker.io/jerboaa/che-spring-boot:0.0.2",
             "type": "dockerimage"
           },
           "machines": {
